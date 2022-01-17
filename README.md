@@ -3,6 +3,7 @@ This solves all your infra needs (Just an example.)
 
 ## Usage
 ~~~
+module "my_ec2_instance" {
   source = "github.com/jtreguboff/tf-module-example"
 
   ec2_instance_type   = "t3.micro"
